@@ -9,7 +9,7 @@ name: YoungJung
 description: App Developer And Student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/quarl894/quarl894.github.io/blob/master/images/profile.png
+avatar: quarl894.github.io/images/profile.png
 
 #
 # Flags below are optional
@@ -18,10 +18,10 @@ avatar: https://github.com/quarl894/quarl894.github.io/blob/master/images/profil
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: quarl894@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: quarl894
   instagram:
   linkedin:
   pinterest:
