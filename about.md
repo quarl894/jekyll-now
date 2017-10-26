@@ -12,4 +12,4 @@ If you have any questions or concerns, please contact us by email below.
 
 ### Contact me
 
-[quarl894@gmail.com]
+[quarl894@gmail.com](quarl894@gmail.com)
