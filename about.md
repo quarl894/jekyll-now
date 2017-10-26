@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+If you have any questions or concerns, please contact us by email below.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[quarl894@gmail.com]
