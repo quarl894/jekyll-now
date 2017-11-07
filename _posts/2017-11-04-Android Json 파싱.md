@@ -26,7 +26,7 @@ Android에서 공공기관이나 여러 기관에서 공개된 API를 사용할�
 
 저는 raw 파일로 파싱을 한거라 인터넷에서 파싱을 하려면 URL을 통해 데이터를 가져오신 다음 따라오시면 됩니다.
 
-```
+```java
         private void readItems() throws JSONException {
                 try{
                         InputStream is= getResources().openRawResource(R.raw.great_hospital);

@@ -17,7 +17,7 @@ categories: android
 ###막대 프로그레스바 그라데이션 주기.
 1. drawable에 xml로 만들기.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -42,7 +42,7 @@ categories: android
 ```
 
 2. 해당 layout에 progressbar 적용시키기.
-```
+```java
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@ categories: android
 ###원형 프로그레스바 그라데이션 주기.(원형은 프로그레스바가 2개 필요!!)
 1. drawable에 xml로 만들기.(첫번째는 background나타낼 프로그레스바)
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@android:id/progress">
@@ -78,7 +78,7 @@ categories: android
 ```
 
 foreground 나타낼 프로그레스바(나타낼 그라데이션 색을 적으면 된다)
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@android:id/progress">
@@ -98,7 +98,7 @@ foreground 나타낼 프로그레스바(나타낼 그라데이션 색을 적으�
 ```
 
 2. layout에 적용시키기
-```
+```java
      <ProgressBar
         android:id="@+id/circle_progress_bar"
         style="?android:attr/progressBarStyleHorizontal"
